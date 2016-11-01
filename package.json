@@ -1,0 +1,22 @@
+{
+	"name": "NodePlusAngularJS",
+    "version": "0.1.0",
+    "description": "NodePlusAngularJS",
+    "main": "hello-from-nodejs-server.js",
+    "scripts": {
+    	"test": "./node_modules/.bin/mocha",
+        "postinstall": "bower install"
+    },
+    "repository": "",
+    "keywords": [
+        "node.js",
+        "eclipse",
+        "nodeclipse"
+    ],
+    "author": "",
+    "license": "GNU GPLv3",
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "serve-static": "~1.7.0"
+    }
+}
